@@ -6,7 +6,7 @@
 
 https://SubirSarkar2021.github.io/CompPhyWithPython/
 
-# My Blog
+# Computational Physics with Python
 
 
 _powered by [fastpages](https://github.com/fastai/fastpages)_
