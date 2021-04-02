@@ -102,16 +102,47 @@ window.onload = wrap_img;
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">An Example Markdown Post</h1>
-    <p class="post-meta"><time class="dt-published" datetime="2020-01-14T00:00:00-06:00" itemprop="datePublished">
+    <h1 class="post-title p-name" itemprop="name headline">An Example Markdown Post</h1><p class="page-description">A minimal example of using markdown with fastpages.</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-01-14T00:00:00-06:00" itemprop="datePublished">
         Jan 14, 2020
-      </time></p>
-  </header>
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      1 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/CompPhyWithPython/categories/#markdown">markdown</a>
+        
+      
+      </p>
+    
+
+    </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <h1 id="example-markdown-post">Example Markdown Post</h1>
+    <ul class="section-nav">
+<li class="toc-entry toc-h1"><a href="#example-markdown-post">Example Markdown Post</a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#basic-setup">Basic setup</a></li>
+<li class="toc-entry toc-h2"><a href="#basic-formatting">Basic formatting</a></li>
+<li class="toc-entry toc-h2"><a href="#lists">Lists</a></li>
+<li class="toc-entry toc-h2"><a href="#boxes-and-stuff">Boxes and stuff</a></li>
+<li class="toc-entry toc-h2"><a href="#images">Images</a></li>
+<li class="toc-entry toc-h2"><a href="#code">Code</a></li>
+<li class="toc-entry toc-h2"><a href="#tables">Tables</a></li>
+<li class="toc-entry toc-h2"><a href="#tweetcards">Tweetcards</a></li>
+<li class="toc-entry toc-h2"><a href="#footnotes">Footnotes</a></li>
+</ul>
+</li>
+</ul><h1 id="example-markdown-post">
+<a class="anchor" href="#example-markdown-post" aria-hidden="true"><span class="octicon octicon-link"></span></a>Example Markdown Post</h1>
 
-<h2 id="basic-setup">Basic setup</h2>
+<h2 id="basic-setup">
+<a class="anchor" href="#basic-setup" aria-hidden="true"><span class="octicon octicon-link"></span></a>Basic setup</h2>
 
 <p>Jekyll requires blog post files to be named according to the following format:</p>
 
@@ -121,13 +152,15 @@ window.onload = wrap_img;
 
 <p>The first line of the file should start with a single hash character, then a space, then your title. This is how you create a “<em>level 1 heading</em>” in markdown. Then you can create level 2, 3, etc headings as you wish but repeating the hash character, such as you see in the line <code class="language-plaintext highlighter-rouge">## File names</code> above.</p>
 
-<h2 id="basic-formatting">Basic formatting</h2>
+<h2 id="basic-formatting">
+<a class="anchor" href="#basic-formatting" aria-hidden="true"><span class="octicon octicon-link"></span></a>Basic formatting</h2>
 
 <p>You can use <em>italics</em>, <strong>bold</strong>, <code class="language-plaintext highlighter-rouge">code font text</code>, and create <a href="https://www.markdownguide.org/cheat-sheet/">links</a>. Here’s a footnote <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote">1</a></sup>. Here’s a horizontal rule:</p>
 
-<hr />
+<hr>
 
-<h2 id="lists">Lists</h2>
+<h2 id="lists">
+<a class="anchor" href="#lists" aria-hidden="true"><span class="octicon octicon-link"></span></a>Lists</h2>
 
 <p>Here’s a list:</p>
 
@@ -143,29 +176,32 @@ window.onload = wrap_img;
   <li>item 2</li>
 </ol>
 
-<h2 id="boxes-and-stuff">Boxes and stuff</h2>
+<h2 id="boxes-and-stuff">
+<a class="anchor" href="#boxes-and-stuff" aria-hidden="true"><span class="octicon octicon-link"></span></a>Boxes and stuff</h2>
 
 <blockquote>
   <p>This is a quotation</p>
 </blockquote>
 
 <div class="Toast Toast--warning googoo">
-   <span class="Toast-icon"><svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.22 1.754a.25.25 0 00-.44 0L1.698 13.132a.25.25 0 00.22.368h12.164a.25.25 0 00.22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0114.082 15H1.918a1.75 1.75 0 01-1.543-2.575L6.457 1.047zM9 11a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.25a.75.75 0 00-1.5 0v2.5a.75.75 0 001.5 0v-2.5z"></path></svg></span>
+   <span class="Toast-icon"><svg class="octicon octicon-alert" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.22 1.754a.25.25 0 00-.44 0L1.698 13.132a.25.25 0 00.22.368h12.164a.25.25 0 00.22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0114.082 15H1.918a1.75 1.75 0 01-1.543-2.575L6.457 1.047zM9 11a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.25a.75.75 0 00-1.5 0v2.5a.75.75 0 001.5 0v-2.5z"></path></svg></span>
    <span class="Toast-content">You can include alert boxes</span>
 </div>
 
 <p>…and…</p>
 
 <div class="Toast">
-   <span class="Toast-icon"><svg class="octicon octicon-info" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"></path></svg></span>
+   <span class="Toast-icon"><svg class="octicon octicon-info" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"></path></svg></span>
    <span class="Toast-content">You can include info boxes</span>
 </div>
 
-<h2 id="images">Images</h2>
+<h2 id="images">
+<a class="anchor" href="#images" aria-hidden="true"><span class="octicon octicon-link"></span></a>Images</h2>
 
-<p><img src="/CompPhyWithPython/images/logo.png" alt="" title="fast.ai's logo" /></p>
+<p><img src="/CompPhyWithPython/images/logo.png" alt="" title="fast.ai's logo"></p>
 
-<h2 id="code">Code</h2>
+<h2 id="code">
+<a class="anchor" href="#code" aria-hidden="true"><span class="octicon octicon-link"></span></a>Code</h2>
 
 <p>You can format text and code per usual</p>
 
@@ -197,7 +233,8 @@ wget https://example.com/cat_photo1.png
 <span class="pi">-</span> <span class="na">another_key</span><span class="pi">:</span> <span class="s2">"</span><span class="s">another</span><span class="nv"> </span><span class="s">value"</span>
 </code></pre></div></div>
 
-<h2 id="tables">Tables</h2>
+<h2 id="tables">
+<a class="anchor" href="#tables" aria-hidden="true"><span class="octicon octicon-link"></span></a>Tables</h2>
 
 <table>
   <thead>
@@ -214,18 +251,23 @@ wget https://example.com/cat_photo1.png
   </tbody>
 </table>
 
-<h2 id="tweetcards">Tweetcards</h2>
+<h2 id="tweetcards">
+<a class="anchor" href="#tweetcards" aria-hidden="true"><span class="octicon octicon-link"></span></a>Tweetcards</h2>
 
-<div class="jekyll-twitter-plugin"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">Altair 4.0 is released! <a href="https://t.co/PCyrIOTcvv">https://t.co/PCyrIOTcvv</a><br />Try it with:<br /><br />  pip install -U altair<br /><br />The full list of changes is at <a href="https://t.co/roXmzcsT58">https://t.co/roXmzcsT58</a> ...read on for some highlights. <a href="https://t.co/vWJ0ZveKbZ">pic.twitter.com/vWJ0ZveKbZ</a></p>&mdash; Jake VanderPlas (@jakevdp) <a href="https://twitter.com/jakevdp/status/1204765621767901185?ref_src=twsrc%5Etfw">December 11, 2019</a></blockquote>
+<div class="jekyll-twitter-plugin">
+<blockquote class="twitter-tweet">
+<p lang="en" dir="ltr">Altair 4.0 is released! <a href="https://t.co/PCyrIOTcvv">https://t.co/PCyrIOTcvv</a><br>Try it with:<br><br>  pip install -U altair<br><br>The full list of changes is at <a href="https://t.co/roXmzcsT58">https://t.co/roXmzcsT58</a> ...read on for some highlights. <a href="https://t.co/vWJ0ZveKbZ">pic.twitter.com/vWJ0ZveKbZ</a></p>— Jake VanderPlas (@jakevdp) <a href="https://twitter.com/jakevdp/status/1204765621767901185?ref_src=twsrc%5Etfw">December 11, 2019</a>
+</blockquote>
 <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
 
-<h2 id="footnotes">Footnotes</h2>
+<h2 id="footnotes">
+<a class="anchor" href="#footnotes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Footnotes</h2>
 
 <div class="footnotes" role="doc-endnotes">
   <ol>
     <li id="fn:1" role="doc-endnote">
-      <p>This is the footnote. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+      <p>This is the footnote. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">↩</a></p>
     </li>
   </ol>
 </div>
